@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use("/api/contact", contactRoutes);
 
 // MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/contactDB")
+mongoose.connect("mongodb+srv://vineela:vineela123@cluster0.fdap9lk.mongodb.net/contactDB")
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
