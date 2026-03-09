@@ -36,7 +36,7 @@ form.addEventListener("submit", async function (e) {
 
     try {
 
-        const response = await fetch("http://localhost:5000/api/contact/send", {
+        const response = await fetch("https://portfolio-backend-cd14.onrender.com/api/contact/send", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
